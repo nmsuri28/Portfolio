@@ -1,3 +1,4 @@
+
 .navbar{ 
     background:rgba(56, 55, 54, 0.637);
     border-bottom:2pt solid #f97300;
@@ -14,88 +15,63 @@
     text-shadow: 1px 3px 8px rgb(36, 34, 34);
     font-size: 28pt;
 }
-
-.nav-link{ 
-    margin-right: 16px;
-    font-size: 12pt;
+#newNavBarBrand{
+    font-family: 'Playfair Display SC', serif;
+    color: #f4f4f4; 
+    cursor: pointer;
+    text-shadow: 1px 3px 8px rgb(36, 34, 34);
+    font-size: 28pt;
 }
 
-.nav-link:hover{ 
-    background: #f97300; 
-    color:rgba(56, 55, 54, 0.637); 
-}
-
-.navbar-brand:hover{
-    color: #f4f4f4;
-    background:none;
-}
-
-.navbar-collapse{ 
-    justify-content: flex-end;
-}
-
-.navbar-toggler{  
-    background:#fff;
-}
 
 .header{
-    background-image: url('../images/header image.jpg');
+   
+    height: 500px;
+    width: 100%;
+    background-image: url('../images/finalheaderforrealthistime.jpg');
     background-attachment: fixed;
-    background-size: cover;
-    background-position: center;
-    box-shadow: 1px 1px 4px #666;
+    background-size:cover;
+    box-shadow: 1px 1px 4px  rgb(36, 34, 34);
 }
 
-.overlay{
-    position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(244, 244, 244, 0.79);
-}
+
 
 .description{
     position: absolute;
-    top: 30%;
+    top: 10%;
+    left: 3%;
     margin: auto;
     padding: 32px;
 }
 
 .description h1{
- color:#F97300 ;
+ color:white ;
+ font-size: 36pt;
 }
 
 .description p{
- color:#666;
+padding-top: 28px;
+ color: rgb(36, 34, 34);
  font-size: 20px;
+ font-weight: 600;
  width: 50%;
- line-height: 1.5;
+ line-height: 2.1;
 }
 
-.description button{
- border:1px  solid #F97300;
- background:#F97300;
- color:#fff;
- text-shadow: 1px 3px 8px rgb(36, 34, 34);
-}
 
 .about{
-    margin: 64px 0;
+    margin: 64px 0px;
     padding: 1em;
     position: relative;
+    margin-bottom: 88px;
 }
 
-.about h1{
-    color:#F97300;
-    margin: 32px;
-}
 
 .about img{
     height: auto;
-    width: 50%;
+    width: 70%;
     border-radius: 50%;
-    box-shadow: 0 3px 6px rgb(36, 34, 34)
+    box-shadow: 0 3px 6px rgb(36, 34, 34);
 }
 
 .about span{
@@ -111,23 +87,42 @@
 
 .about .desc h3{
     color: #F97300;
-    text-shadow: 1px 3px 8px rgb(36, 34, 34)
+    margin-left: 35px;
+    
 }
 
 .about .desc p{
     line-height:2;
     color:#888;
+    margin-left: 35px;
+    font-size: 14pt;
+}
+
+.about .desc h1{
+    color: rgb(36, 34, 34);
+    font-size: 38pt;
+    margin: 32px;
 }
 
 .portfolio{
-    margin: 64px 0;
+    height: 800px;
+    /*margin: 64px 0;*/
     position: relative; 
+    margin-top: 175px;
+    
+    background-image: url('../images/portfolio.jpg');
+    background-attachment: fixed;
+    background-size:cover;
+    box-shadow: 1px 1px 4px  rgb(36, 34, 34);
+
 }
 
 .portfolio h1{
-    color:#F97300;
-    margin: 32px; 
-    text-shadow: 1px 3px 8px rgb(36, 34, 34);
+    color:rgb(36, 34, 34);
+    margin: 75px; 
+    padding-top: 55px;
+    
+    
 }
 
 .portfolio img{
@@ -145,6 +140,12 @@
     box-shadow: 1px 2px 4px rgb(36, 34, 34);
     text-shadow: 1px 3px 8px rgb(36, 34, 34);
 }
+#socialmedia{
+    height: 300px;
+    padding-top: 35px;
+    
+}
+
 #socialmedia img{
     height: 75px;
     width: auto;
@@ -154,35 +155,6 @@
     color: #F97300;
 }
 
-.contact-form{
-    margin: 96px 0;
-    position: relative;  
-}
-
-.contact-form h1{
-    padding:34px 1px;
-    color: #F97300; 
-    text-shadow: 1px 3px 8px rgb(36, 34, 34);
-}
-
-.contact-form .right{
-    max-width: 600px;
-}
-
-.contact-form .right .btn-secondary{
-    background:  #F97300;
-    color: #fff;
-    border:0;
-}
-
-.btn-secondary{
-    text-shadow: 1px 3px 8px rgb(36, 34, 34);
-}
-
-.contact-form .right .form-control::placeholder{
-    color: #888;
-    font-size: 16px;
-}
 
 html,h1,h2,h3,h4,h5,h6,a,p,span{
     font-family: 'Playfair Display SC', serif;
